@@ -2,8 +2,7 @@
 #include "deneyap.h"
 #include "ServoESP32.h"
 
-#define servoPin PWM0                                           // PWM pini tanimlamasi
-#define potentiometerPin A0                                     // Analog giris pini tanimlamasi
+#define servoPin PWM0                                           // PWM pini tanimlamasi 
 
 Servo servo1;                                                   // Class'tan nesne turetimi
 int incomingByte = 0;                                           // Gelen veriyi tutacak degisken tanimi
